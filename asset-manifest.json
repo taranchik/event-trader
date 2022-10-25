@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/event-trader/static/css/main.4aa41f9a.css",
+    "main.js": "/event-trader/static/js/main.b5d29cd0.js",
+    "index.html": "/event-trader/index.html",
+    "main.4aa41f9a.css.map": "/event-trader/static/css/main.4aa41f9a.css.map",
+    "main.b5d29cd0.js.map": "/event-trader/static/js/main.b5d29cd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4aa41f9a.css",
+    "static/js/main.b5d29cd0.js"
+  ]
+}

@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+  white-space: nowrap;
+
+  color: rgb(223, 225, 234);
+}
+
+.App .function-boxes-wrapper .box {
+  width: 350px;
+
+  margin: 25px 55px;
+  padding: 15px;
+
+  text-align: left;
+
+  border-radius: 10px;
+  background-color: rgb(42, 44, 63);
+}
+
+.App .function-boxes-wrapper {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  cursor: pointer;
+
+  border: 0;
+  border-radius: 3px;
+
+  color: #fff;
+}
+
+.disabled-btn {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.transact-payable-btn {
+  border-color: #b84040;
+  background-color: #b84040;
+}
+
+.transact-payable-btn:hover {
+  background-color: #b84040;
+}
+
+.transact-btn {
+  border-color: #c97539;
+  background-color: #c97539;
+}
+
+.transact-btn:hover {
+  background-color: rgba(201, 117, 57, 0.85);
+}
+
+.fetch-info-btn {
+  border-color: #355f7d;
+  background-color: #355f7d;
+}
+
+.fetch-info-btn:hover {
+  background-color: rgba(53, 95, 125, 0.85);
+}
+
+.row {
+  width: 100%;
+
+  display: flex;
+  margin: 0;
+}
+
+.box .box-fields {
+  font-size: 14px;
+  color: #959bad;
+}
+
+.box .box-title {
+  margin-bottom: 20px;
+}
+
+.box-fields .row {
+  justify-content: flex-end;
+  align-items: center;
+
+  margin: 10px 0;
+}
+
+.box-fields button {
+  height: 32px;
+  width: 100px;
+
+  margin: 15px 10px 0 10px;
+  justify-content: flex-end;
+}
+
+.box-fields button:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+.function-boxes-wrapper input[type="text"],
+select {
+  height: 32px;
+  width: 160px;
+
+  margin: 0 10px;
+  padding: 6px 20px;
+
+  display: block;
+
+  position: relative;
+  box-sizing: border-box;
+  line-height: 1.2;
+
+  border: 3px solid rgb(31, 64, 89, 0);
+  border-radius: 5px;
+
+  color: rgb(166, 168, 181);
+  background-color: rgb(53, 56, 76);
+}
+
+select {
+  padding: 0 20px;
+  outline: 0;
+
+  border-right: 5px solid rgba(0, 0, 0, 0);
+  border: 0;
+}
+
+.function-boxes-wrapper input[type="text"]:focus {
+  outline: 0;
+  border: 3px solid rgb(31, 64, 89);
+}
